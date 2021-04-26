@@ -1,0 +1,102 @@
+from_city,to_city,fare
+Denver,Albuquerque,183.0
+Portland,Albuquerque,201.0
+Phoenix,Albuquerque,203.0
+Seattle,Albuquerque,211.0
+San Francisco,Albuquerque,214.0
+Tucson,Albuquerque,246.0
+Las Vegas,Albuquerque,267.0
+Ontario,Albuquerque,296.0
+Colorado Springs,Albuquerque,310.0
+Los Angeles,Albuquerque,318.0
+Burbank,Albuquerque,333.0
+San Jose,Albuquerque,340.0
+Oakland,Albuquerque,347.0
+New York,Albuquerque,351.0
+Houston,Albuquerque,357.0
+Omaha,Albuquerque,364.0
+Salt Lake City,Albuquerque,364.0
+Atlanta,Albuquerque,365.0
+Santa Ana,Albuquerque,368.0
+Houston,Albuquerque,379.0
+Sacramento,Albuquerque,381.0
+Chicago,Albuquerque,388.0
+Chicago,Albuquerque,402.0
+Buffalo,Albuquerque,409.0
+Newark,Albuquerque,418.0
+Albany,Albuquerque,439.0
+Bellingham,Albuquerque,483.0
+Oklahoma City,Albuquerque,487.0
+Indianapolis,Albuquerque,490.0
+Dallas,Albuquerque,497.0
+Rochester,Albuquerque,532.0
+Washington DC,Albuquerque,534.0
+Toronto,Albuquerque,550.0
+Boston,Albuquerque,550.0
+Nashville,Albuquerque,552.0
+Burlington,Albuquerque,560.0
+Baltimore,Albuquerque,576.0
+Kitchener,Albuquerque,609.0
+Rutland,Albuquerque,628.0
+Minneapolis,Albuquerque,633.0
+Austin,Albuquerque,677.0
+Washington DC,Albuquerque,754.0
+Hamilton,Albuquerque,1006.0
+Houston,Atlanta,58.0
+Cleveland,Atlanta,70.0
+Newark,Atlanta,75.0
+Fort Lauderdale,Atlanta,75.0
+Boston,Atlanta,87.0
+Philadelphia,Atlanta,87.0
+Baltimore,Atlanta,93.0
+New Orleans,Atlanta,93.0
+Cincinnati,Atlanta,106.0
+Trenton,Atlanta,117.0
+Indianapolis,Atlanta,117.0
+New York,Atlanta,124.0
+West Palm Beach,Atlanta,125.0
+Los Angeles,Atlanta,127.0
+Washington DC,Atlanta,131.0
+Detroit,Atlanta,131.0
+Denver,Atlanta,139.0
+Seattle,Atlanta,140.0
+Miami,Atlanta,147.0
+Burbank,Atlanta,147.0
+New York,Atlanta,148.0
+Oakland,Atlanta,150.0
+Minneapolis,Atlanta,153.0
+Washington DC,Atlanta,172.0
+Windsor Locks,Atlanta,178.0
+Pittsburgh,Atlanta,181.0
+Charlotte,Atlanta,187.0
+San Diego,Atlanta,192.0
+San Antonio,Atlanta,193.0
+Hendersonville,Atlanta,200.0
+Orlando,Atlanta,203.0
+Santa Ana,Atlanta,207.0
+Phoenix,Atlanta,210.0
+Columbus,Atlanta,216.0
+Jacksonville,Atlanta,228.0
+San Francisco,Atlanta,230.0
+Norfolk,Atlanta,232.0
+Austin,Atlanta,243.0
+Buffalo,Atlanta,252.0
+San Jose,Atlanta,265.0
+El Paso,Atlanta,266.0
+Oklahoma City,Atlanta,284.0
+Rochester,Atlanta,290.0
+Wichita,Atlanta,307.0
+Albany,Atlanta,307.0
+Portland,Atlanta,318.0
+Tallahassee,Atlanta,357.0
+Salt Lake City,Atlanta,362.0
+Wilkes Barre,Atlanta,366.0
+Tucson,Atlanta,380.0
+Boise,Atlanta,407.0
+Des Moines,Atlanta,408.0
+Vancouver,Atlanta,440.0
+Anchorage,Atlanta,517.0
+Nassau,Atlanta,645.0
+Freeport,Atlanta,727.0
+Honolulu,Atlanta,779.0
+Kahului,Atlanta,780.0

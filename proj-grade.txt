@@ -1,0 +1,69 @@
+Note on the Rubric 
+------------------
+Although some of the grading criteria may appear subjective to you, I was as objective as possible and assigned almost all the grades using checkpoints on the essential parts that we required for the project. 
+
+The soft criterium I used is mostly concentrated on items #2 (Data Analysis) and #3 (Scope and Complexity). The final grade for those items resulted from an evaluation of all the projects as a whole. I also recognized in those rubrics team's effort and dedication. I considered a project more complex if it required different types of skills and used more diverse content we covered in during the quarter (e.g., if the team downloaded and used two ready-to-use data sets VS if the data was constructed using complex webscraping, data cleaning, record linkage, and everything was stored in a relational SQL database).
+
+Please note that these grades are final! I will not make any grade adjusts unless it is due to an arithmetic error, even if you feel the deduction is too much. Project scores are final. 
+
+As always with assignments, feel free to reach out if you do have any questions about improvement or clarification. Please respond via email if you do have any questions (not on Ed). I will be busy preparing for the next quarter so we may not have a chance to respond right away. 
+
+-------
+
+Project Evaluation Points:
+
+    - Project Requirements (See point breakdown below):
+        Points Possible: 75
+        Points Obtained: 70
+
+    - Design: & Coding Style: 
+        Points Possible: 15
+        Points Obtained: 11 (see comment below)
+
+    - Program usability:
+        Points Possible: 10
+        Points Obtained: 10
+
+
+Total Points: 91 / 100
+
+
+Breakdown of Project Requirements:       
+
+  - Contains README and/or a pdf with textual information describing the project.
+        Points Possible: 10
+        Points Obtained: 7
+	
+  - Fulfills requirement #1: Two Data Sources(Web or API and another source)
+        Points Possible: 15
+        Points Obtained: 15
+
+  - Fulfills requirement #2: Data analysis component
+        Points Possible: 15
+        Points Obtained: 13 (See comment below about min age issue.)
+
+  - Fulfills requirement #3: Project Scope & Complexity
+        Points Possible: 20
+        Points Obtained: 20
+
+
+  - Fulfills requirement #4: Visualization or Textual Component
+        Points Possible: 15
+        Points Obtained: 15
+
+Comments: I have a few more comments: 
+
+1. I think you guys did a great job with the analysis and django work! You were one of the best groups
+for a pure anyalsis perspective, so great job on that front! 
+
+2. A few functions suffer from a lot of repetition or just very long functions. You really need to think 
+about if a function is more than 15 lines of code or it's getting long that you rethink its implementation. 
+Yoursearch function could have been greatly reduced if you had the `search_dict` dictionary already in the structure 
+you needed to do the querying. Allow the django implementaiton to construct it in a way such that you don't need to 
+have so many if-statements for updating the keys/values. 
+
+3. I entered that the min age should be 18 but it still gives me back results that dont have the min age to be 18? 
+
+4. I'm quite dissappointed that the report file was blank. Out of the 4 members one of you should
+have verified that it was submitted. Regardless, Onel was able to get it to me but to be fair to the 
+other groups there was a slighly deduction. 
