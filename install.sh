@@ -1,3 +1,6 @@
+# This is a bash script. It is possible to run this manually to the same effect
+# Just see MANUAL comments
+
 #!/bin/bash 
 
 # 1. First check to see if the correct version of Python is installed on the local machine 
@@ -27,12 +30,14 @@ echo -e "\t--OS=Platform=$PLATFORM"
 # 3. Create Virtual environment 
 echo -e "3. Creating new virtual environment..."
 
+# MANUAL: run 'Remove-Item env' in Powershell
 # Remove the env directory if it exists 
 if [[ -d env ]]; then 
     echo -e "\t--Virtual Environment already exists. Deleting old one now."
     rm -rf env  
 fi
 
+# MANUAL: run 'python -m venv env' or 'python3 -m venv env'
 $PYTHON -m venv env  # Creates the virtual environment with name env
 if [[ ! -d env ]]; then 
     echo -e "\t--Could not create virutal environment...Please make sure venv is installed"
@@ -47,7 +52,10 @@ if [[ ! -e "requirements.txt" ]]; then
     exit 1
 fi
 
-source env/bin/activate # Activates the virtual environment
+# MANUAL Use '. .\env\scripts\activate' in Windows Powershell
+source env/bin/activate # Activates the virtual environment 
+
+# MANUAL Then run below command 
 pip install -r requirements.txt
 
 # 6. Install Selenium drivers (Notice I'm doing this will the virtual environment is activated!!)

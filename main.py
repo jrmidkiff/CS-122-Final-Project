@@ -65,7 +65,10 @@ def act(user_input):
         print("Click that button to proceed.")
         print("***Press CONTROL-C to exit the server.\n")
         os.chdir("./front_end/game_search_ui")
-        os.system("python3 manage.py runserver 8000")
+        if os.name == 'nt': # for windows
+            os.system("python manage.py runserver 8000") # Will work on Windows
+        else:
+            os.system("python3 manage.py runserver 8000") # Won't work on Windows
         os.chdir("../..")
         return_main_menu()
     elif user_input == "2": 
@@ -74,7 +77,10 @@ def act(user_input):
         print("Click that button to proceed.")
         print("***Press CONTROL-C to exit the server.\n")
         os.chdir("./front_end/regression_ui")
-        os.system("python3 manage.py runserver 8080")
+        if os.name == 'nt': # for windows
+            os.system("python manage.py runserver 8000") # Will work on Windows
+        else:
+            os.system("python3 manage.py runserver 8000") # Won't work on Windows
         os.chdir("../..")
         return_main_menu()
     elif user_input == "3": 
